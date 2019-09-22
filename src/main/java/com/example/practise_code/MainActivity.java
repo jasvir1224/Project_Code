@@ -21,21 +21,14 @@ public class MainActivity extends AppCompatActivity {
         TextView textView3 = (TextView) findViewById(R.id.text3);
         TextView textView4 = (TextView) findViewById(R.id.text4);
 
-        // Total Characters
         String X =
-        "copyandpastecopyandpastecopyandpastecopyandpastecopyandpastecopyandpastecommitandpushcommitandpushcommitandpushcommitandpushpushcccccommmitttsss";
-String y = String.valueOf(X.length());
-          System.out.println(X.length());
+                "copyandpastecopyandpastecopyandpastecopyandpastecopyandpastecopyandpastecommitandpushcommitandpushcommitandpushcommitandpushpushcccccommmitttsss";
 
-          textView1.setText(y);
+        // Total Characters
+        String y = String.valueOf(X.length());
+        System.out.println(X.length());
 
-          // Last 15 Charcaters
-        
-
-
-
+        textView1.setText(y);
 
     }
-
-
 }
